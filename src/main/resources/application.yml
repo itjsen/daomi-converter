@@ -1,0 +1,16 @@
+server:
+  port: 8081
+daomi-converter:
+  localoss:
+    # 这里可以填你服务器的域名，也可以不填。注意：如果是用虚拟机等非公网ip的主机来部署的，则这里必填你的局域网ip
+    host:
+  pcm-to-silk:
+    # 比特率(最好别改了)
+    rate: 128000
+    # API采样率(最好别改了)
+    api-sample-rate: 44100
+    # 最大间隔采样率(可选值：12000、16000、24000，这个值越大，silk文件也越大，音质也越高)
+    max-interval-sample-rate: 16000
+  clean-audio:
+    # silk文件的存活时长，单位是秒(按需修改)
+    silk-max-age: 300
