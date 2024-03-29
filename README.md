@@ -12,10 +12,15 @@
 
 ## 2.2、🍀拉取镜像
 ```bash
-docker pull itjsen/daomi-converter:1.0.0 \
-docker tag itjsen/daomi-converter:1.0.0 daomi-converter:1.0.0 \
+docker pull itjsen/daomi-converter:1.0.0
+```
+```bash
+docker tag itjsen/daomi-converter:1.0.0 daomi-converter:1.0.0
+```
+```bash
 docker rmi itjsen/daomi-converter:1.0.0
 ```
+
 
 ## 2.3、🍀创建容器
 ```bash
